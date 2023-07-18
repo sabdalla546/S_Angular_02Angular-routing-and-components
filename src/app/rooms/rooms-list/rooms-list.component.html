@@ -1,0 +1,6 @@
+<div class="rooms" *ngFor="let room of roomsList" (click)="onSelectedRoom(room)">
+    <div class="room">
+        <h3>{{room.roomType}}</h3>
+        <h4>{{room.price}}</h4>
+    </div>
+</div>
